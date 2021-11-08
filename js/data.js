@@ -1,4 +1,4 @@
-[
+const icone =[
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -112,3 +112,32 @@
 		color: 'blue'
 	}
 ];
+
+// // // VARIABILI
+ const container = document.getElementById("contenitore_icone");
+ let icon = "";
+
+ icone.forEach((elemento) => {
+	icon = `
+	<div class="icon">
+		<div>
+			<i class="${elemento.family} ${elemento.prefix}${elemento.name}"></i>
+		</div>
+    	<div class="text_icon">
+           <span>${elemento.name}</span>
+        </div>
+    </div>`
+	container.innerHTML += icon;
+ }
+ )
+
+
+
+
+
+
+
+
+
+
+

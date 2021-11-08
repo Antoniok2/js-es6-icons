@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 40px;
+}
+
+.filtri {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(108, 108, 250);
+}
+
+#contenitore_icone {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100%;
+    background-color: aqua;
+}
+
+.icon {
+    width: calc((100% / 5) - 20px);
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
