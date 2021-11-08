@@ -121,15 +121,14 @@ const icone =[
 	icon = `
 	<div class="icon">
 		<div>
-			<i class="${elemento.family} ${elemento.prefix}${elemento.name}"></i>
+			<i class="${elemento.family} ${elemento.prefix}${elemento.name} ${elemento.type}"></i>
 		</div>
     	<div class="text_icon">
            <span>${elemento.name}</span>
         </div>
     </div>`
 	container.innerHTML += icon;
- }
- )
+ });
 
 
 
